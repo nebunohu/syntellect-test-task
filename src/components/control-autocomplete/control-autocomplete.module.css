@@ -1,0 +1,35 @@
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.listWrapper {
+    position: absolute;
+    top: 21px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    z-index: 100;
+    border: 1px solid black
+}
+
+.countryWrapper {
+    display: flex;
+    cursor: pointer;
+    gap: 8px;
+    height: 36px;
+    background-color: rgb(255, 255, 255);
+    text-overflow: ellipsis;
+    overflow-y: hidden;
+}
+
+.flag {
+    height: 100%;
+    width: 54px;
+}
+
+.countryWrapper:hover {
+    background-color: rgb(225, 225, 225);
+}
